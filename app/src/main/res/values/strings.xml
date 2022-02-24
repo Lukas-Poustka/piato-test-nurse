@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Piato N-Test</string>
+    <string name="start_header">Piato Test App Pflege</string>
+    <string name="init_cover">Registriere Piato Pflege Test App im Portal…</string>
+    <string name="try_again">Erneut versuchen</string>
+    <string name="close">Schließen</string>
+    <string name="error_regitration">Fehler beim Registrieren</string>
+    <string name="error_registration_text">Registriern von Piato Pflege Test App im Portal fehlgeschlagen. Überprüfe Deine Internetverbindung und versuche es nochmal.</string>
+    <string name="notification_message_title">Alarm vom Patienten</string>
+    <string name="notification_message_text">Ein Alarm vom Patienten ist angekommen!</string>
+    <string name="placeholder_timestamp">17:53:21.123</string>
+    <string name="placeholder_piato_id">ptp12345</string>
+    <string name="inc_id">inc_id:</string>
+    <string name="placeholder_1">1</string>
+    <string name="questionnaire_mark">\?</string>
+    <string name="home">Home</string>
+    <string name="patients">Patienten</string>
+    <string name="add_patient">Patienten hinzufügen</string>
+    <string name="scan_piato_id_patient">Scanne den QR-Code von der Piato Patienten App</string>
+    <string name="patient_already_added">Der Patient %1 ist bereits hinzugefügt.</string>
+    <string name="patient_successfully_added">Der Patient %1 erfolgreich hinzugefügt.</string>
+</resources>

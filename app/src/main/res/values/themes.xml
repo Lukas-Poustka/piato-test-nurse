@@ -1,0 +1,38 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.piato" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryVariant">@color/blue_2</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/black</item>
+        <item name="colorSecondaryVariant">@color/blue_2</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="android:colorBackground">@color/gray_4</item>
+        <!-- Status bar color. -->
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+
+    <style name="AlertDialogStyle" parent="ThemeOverlay.MaterialComponents.MaterialAlertDialog">
+        <item name="materialAlertDialogTitleTextStyle">@style/MyTitle</item>
+        <item name="materialAlertDialogBodyTextStyle">@style/MyBody</item>
+        <item name="buttonBarPositiveButtonStyle">@style/PositiveButtonStyle</item>
+    </style>
+    <style name="MyTitle" parent="@style/MaterialAlertDialog.MaterialComponents.Title.Text">
+        <item name="android:textAppearance">?attr/textAppearanceHeadline6</item>
+    </style>
+    <style name="MyBody" parent="@style/MaterialAlertDialog.MaterialComponents">
+        <item name="android:textAppearance">?attr/textAppearanceBody1</item>
+    </style>
+    <style name="PositiveButtonStyle" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/text_size_16sp</item>
+    </style>
+
+    <!-- Report Relapse start -->
+
+    <!-- Report Relapse end -->
+
+</resources>
